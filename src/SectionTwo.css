@@ -1,0 +1,66 @@
+.SectionTwo{
+	width: 100%;
+	height:600px;
+}
+.SectionTwo-Container{
+	width: 100%;
+	height:500px;
+	display: grid;
+	grid-template-columns: 300px 300px 300px 400px;
+	grid-template-rows: 250px 250px;
+	grid-template-areas: "imageOne imageTwo imageThree imageSeven"
+						 "imageSix imageFour imageFive imageSeven";
+	grid-gap: 10px;		 
+	position: relative;
+	justify-content: center;
+
+}
+#imageOne{
+	width: 100%;
+	height: 100%;
+	grid-area: imageOne;
+}
+#imageTwo{
+	width: 100%;
+	height: 100%;
+	grid-area: imageTwo;
+}
+#imageThree{
+	width: 100%;
+	height: 100%;
+	grid-area: imageThree;
+}
+#imageFour{
+	width: 100%;
+	height: 100%;
+	grid-area: imageFour;
+}
+#imageFive{
+	width: 100%;
+	height: 100%;
+	grid-area: imageFive;
+}
+#imageSix{
+	width: 100%;
+	height: 100%;
+	grid-area: imageSix;
+}
+#imageSeven{
+	width: 100%;
+	height: 100%;
+	grid-area: imageSeven;
+}
+.sectionTwoIMG{
+	width: 100%;
+	height: 50%;
+}
+.News-Container{
+	width: 100%;
+	position: relative;
+	left:15%;
+	color:gray;
+}
+p{
+	position: absolute;
+	color: black;
+}

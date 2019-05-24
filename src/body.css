@@ -1,0 +1,68 @@
+.body{
+	width: 100%;
+	height: 400px;
+}
+.container-body{
+	width: 100%;
+	height:400px;
+	display: grid;
+	grid-template-columns: 710px 300px 300px;
+	grid-template-rows: 170px 150px;
+	grid-template-areas: "imageOne imageTwo imageThree"
+						 "imageOne imageFour imageFive";
+	grid-gap: 10px;		 
+	justify-content: center;
+	
+
+}
+.title-container{
+	width: 100%;
+	font-size: 10px;
+	color: gray;
+	position: relative;
+	left: 15%;
+}
+.backgroundImages{
+	width: 100%;
+	height: 100%;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	display: flex;
+	align-items: flex-end;
+	justify-content: center;
+	color: white;
+}
+#BimageOne{
+	background-image: url("https://ichef.bbci.co.uk/news/834/cpsprodpb/2830/production/_107088201_theresamay_epa.jpg");
+	grid-area: imageOne;
+
+}
+#BimageTwo{
+	background-image: url("https://ichef.bbci.co.uk/news/736/cpsprodpb/13EF0/production/_107084618_mediaitem107084615.jpg");
+	grid-area: imageTwo;
+
+}
+#BimageThree{
+	background-image: url("https://ichef.bbci.co.uk/news/736/cpsprodpb/14E49/production/_107077558_brunei1.jpg");
+	grid-area: imageThree;
+
+}
+#BimageFour{
+	background-image: url("http://ichef.bbci.co.uk/wwfeatures/wm/live/976_549/images/live/p0/79/g6/p079g6t4.jpg");
+	grid-area: imageFour;
+
+}
+#BimageFive{
+	background-image: url("https://ichef.bbci.co.uk/news/736/cpsprodpb/D207/production/_107076735_shihtzu976.jpg");
+	grid-area: imageFive;
+
+}
+.SectionTwo-IMG{
+	width: 100%;
+	height: 100%;
+}
+.text{
+	font-size: 20px;
+	position: relative;
+}
